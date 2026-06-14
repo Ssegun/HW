@@ -30,7 +30,7 @@ case "$1" in
     ;;
 
   clear_data)
-    rm -f data/*.csv data/*.html
+    docker run --rm -v "$DATA_DIR":/data alpine sh -c "rm -f /data/*.csv /data/*.html"
     ;;
 
   inside_generator)
