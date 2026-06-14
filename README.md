@@ -8,6 +8,7 @@ chmod +x run.sh
 
 ## Все команды
 
+```
 Команда | Описание
 `./run.sh build_generator` | Собрать образ генератора
 `./run.sh run_generator` | Запустить генератор → `data/data.csv`
@@ -19,3 +20,4 @@ chmod +x run.sh
 `./run.sh inside_generator` | Показать `/data` изнутри контейнера генератора
 `./run.sh inside_reporter` | Показать `/data` изнутри контейнера аналитика
 `./run.sh report_server` | Запустить веб-сервер с отчётом на порту 8080
+```
